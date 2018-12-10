@@ -1,0 +1,17 @@
+server:
+  port: 9002
+  
+spring:
+  application:
+    name: getway-spring
+    
+eureka: 
+  client: 
+    service-url:
+     defaultZone: http://localhost:9001/eureka/
+     
+zuul:
+  routes:
+    spring-cloud-feign: 
+      path: /feign/**
+      service-id: SERVICE-FEIGN
