@@ -9,5 +9,6 @@ public class SpringBootExcelApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootExcelApplication.class, args);
 		System.out.println("ok");
+		System.out.println("ok");
 	}
 }
